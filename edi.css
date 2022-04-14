@@ -1,0 +1,59 @@
+.maior{
+    flex-grow: 1;
+    text-align: center;
+    font-size: 40px;   
+}
+input{
+    opacity: 0.5;
+}
+
+input{
+    margin-right: 60px;
+    background-color: rgba(255, 253, 253, 0);
+    color: white;
+    border: 0;
+    width: 150px;
+    height: 25px;
+    padding: 5PX;
+    font-size: 14px;
+    margin-top: 27px;
+    font-weight: 600;
+    transition: backgound-color white 0.15, width 200px 0.s, border 0, color black;
+    transition-duration: 0.5s;
+}
+
+
+input:active{
+    background-color: white;
+    width: 200px;
+    transition-duration: 0.5s;
+    
+}
+.menu, label{
+    margin-left: 12px;
+    margin-top: 22px;
+}
+
+.fas{
+    margin-top: 23px;
+    margin-right: 8px;
+}
+
+.busca{
+    margin-top: 28px;
+    background-color: #A7140A;
+    margin-right: -157px;
+    height: 25px;
+    font-size: 15px;
+    width: 150px;
+    transition: color rgba(34, 34, 30, 0.967);
+}
+.fas{
+    margin-top: 4px;
+    margin-right: -79px;
+}
+.fa-search{
+    margin-right: 7px;
+}
+
+
